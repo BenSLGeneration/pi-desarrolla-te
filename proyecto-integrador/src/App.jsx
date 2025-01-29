@@ -1,12 +1,13 @@
-import './App.css'
+import Administracion from './Pages/Administracion/Administracion';
 
-function App() {
-
+const App = () => {
   return (
-    <>
-      
-    </>
-  )
-}
+    <div>
+      {/* Aqui iria navbar
+      Aqui iria sidebar */}
+      <Administracion />
+    </div>
+  );
+};
 
-export default App
+export default App;
