@@ -1,10 +1,10 @@
 import Administracion from './Pages/Administracion/Administracion';
+import { NavBar } from './Components/Navbar/Navbar';
 
 const App = () => {
   return (
     <div>
-      {/* Aqui iria navbar
-      Aqui iria sidebar */}
+      <NavBar />
       <Administracion />
     </div>
   );
