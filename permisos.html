@@ -27,7 +27,7 @@
  <!-- SECCION VACIA PARA NAVBAR Y QUIZAS SIDEBAR  -->
  <header>
     <!-- Navbar -->
-  <div class="navbar-wrapper">
+    
   <nav class="navbar navbar-expand-lg bg-white shadow rounded-pill p-2 position-absolute top-0 end-0 m-3">
  <div class="container-fluid">
    <!-- Botón de hamburguesa -->
@@ -57,290 +57,234 @@
  </div>
 </div>
 </nav>
-</nav>
+
 
  </header>
 
-<!--Sidebar aun en ajustes-->
+ <div class="container-fluid">
 
+    <div class="row flex-nowrap">
 
+      <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
 
+        <div
 
- <!-- SECCION VACIA PARA NAVBAR Y QUIZAS SIDEBAR  -->
+          class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100"
 
+        >
 
+          <a
 
+            href="/"
 
+            class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none"
 
+          >
 
+            <span class="fs-5 d-none d-sm-inline my-5"
 
+              >LOGO DE LECHENKO FUNAOS</span
 
+            >
 
+          </a>
 
+          <ul
 
+            class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
 
+            id="menu"
 
+          >
 
+            <li class="nav-item fs-4 mb-4">
 
+              <a href="#" class="nav-link align-middle px-0">
 
+                <i class="fs-4 bi-house-fill"></i>
 
+                <span class="ms-1 d-none d-sm-inline">Home</span>
 
+              </a>
 
+            </li>
 
 
 
+            <li class="nav-item fs-4 mb-4">
 
+              <a href="#" class="nav-link px-0 align-middle">
 
+                <i class="fs-4 bi-table"></i>
 
+                <span class="ms-1 d-none d-sm-inline">Reservas</span></a
 
+              >
 
+            </li>
 
 
 
+            <li class="nav-item fs-4">
 
+              <a href="#" class="nav-link px-0 align-middle">
 
+                <i class="fs-4 bi-key"></i>
 
+                <span class="ms-1 d-none d-sm-inline">Permisos</span>
 
+              </a>
 
+            </li>
 
+          </ul>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
- <!-- SECCION VACIA PARA NAVBAR Y QUIZAS SIDEBAR  -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <!-- SECCION VACIA PARA NAVBAR Y QUIZAS SIDEBAR  -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <!-- SECCION VACIA PARA NAVBAR Y QUIZAS SIDEBAR  -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <!-- SECCION VACIA PARA NAVBAR Y QUIZAS SIDEBAR  -->
-
-
-
-
-
-
-        </div> <!--  ESPACIO VACIO -->
-            
         </div>
-            <div class="container-fluid">
-                <h1 class="h3 mb-2 text-gray-800"></h1>
-                <p class="mb-4"></p>
+
+      </div>
+
+      <div class="col py-3">
+<!-- main nico  -->
+        <div class="container-fluid"> 
+            <h1 class="h3 mb-2 text-gray-800"></h1>
+            <p class="mb-4"></p>
 
 
-                </div>
-                <div class="card shadow mb-4">
-                    <div class="card-header py-3">
-                        <div class="d-flex align-items-center justify-content-between mb-3">
+            </div>
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
 
-                            <h6 class="m-0 font-weight-bold text-primary title-text-color">Administracion de permisos</h6>
-                            <input type="text" class="form-control w-50" placeholder="Buscar usuarios, cargos, etc.">
-                            <select class="form-control w-25 ml-2">
-                                <option value="all">Todos</option>
-                                <option value="confirmed">Confirmado</option>
-                                <option value="pending">Pendiente</option>
-                                <option value="inactive">Desvinculado</option>
-                            </select>
-                        </div>
+                        <h6 class="m-0 font-weight-bold text-primary title-text-color">Administracion de permisos</h6>
+                        <input type="text" class="form-control w-50" placeholder="Buscar usuarios, cargos, etc.">
+                        <select class="form-control w-25 ml-2">
+                            <option value="all">Todos</option>
+                            <option value="confirmed">Confirmado</option>
+                            <option value="pending">Pendiente</option>
+                            <option value="inactive">Desvinculado</option>
+                        </select>
                     </div>
-                    <div class="card-body">
-                        <div class="table-responsive">
-                            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                <thead>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Nombre usuario</th>
+                                    <th>Cargo</th>
+                                    <th>Permisos</th>
+                                    <th>Status</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Nombre usuario</th>
+                                    <th>Cargo</th>
+                                    <th>Permisos</th>
+                                    <th>Status</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </tfoot>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td><i class="bi bi-person-circle me-1" style="color:rgb(0, 81, 255); "></i> John Doe</td>
+                                    <td>Product Owner</td>
+                                    <td class="d-flex justify-content-start">
+                                        <select class="form-control w-auto">
+                                            <option value="admin">Administrador</option>
+                                            <option value="personnel">Personal</option>
+                                        </select>
+                                        <button type="button" class="btn btn-icon" style="color: green;">
+                                            <i class="bi bi-check-square-fill"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-icon" color: red;">
+                                             <i class="bi bi-x-square-fill" style="color: red;"></i>
+                                        </button>
+                                    </td>
+                                    <td>Confirmado</td>
+                                    <td style="display: flex; gap: 20px;">
+                                        <div>
+                                            <i class="bi bi-eye"></i>
+                                            <i class="bi bi-pencil-square"></i>
+                                        </div>
+                                        <button type="button" class="btn btn-danger" style="margin-top: -5px;"> DESVINCULAR</button></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td><i class="bi bi-person-circle me-1" style="color:rgb(0, 81, 255); "></i> John Doe</td>
+                                    <td>Personal Hotelero</td>
+                                    <td class="d-flex justify-content-start">
+                                        <select class="form-control w-auto">
+                                            <option value="admin">Administrador</option>
+                                            <option value="personnel">Personal</option>
+                                        </select>
+                                        <button type="button" class="btn btn-icon" style="color: green;">
+                                            <i class="bi bi-check-square-fill"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-icon" color: red;">
+                                             <i class="bi bi-x-square-fill" style="color: red;"></i>
+                                        </button>
+                                    </td>
+                                    <td>Desvinculado</td>
+                                    <td style="display: flex; gap: 20px;">
+                                        <div>
+                                            <i class="bi bi-eye"></i>
+                                            <i class="bi bi-pencil-square"></i>
+                                        </div>
+                                        <button type="button" class="btn btn-success" style="margin-top: -5px;"> VINCULAR</button></td>
+                                <tr>
+                                    <td>3</td>
+                                    <td><i class="bi bi-person-circle me-1" style="color:rgb(0, 81, 255); "></i> John Doe</td>
+                                    <td>Product Owner</td>
+                                    <td class="d-flex justify-content-start">
+                                        <select class="form-control w-auto">
+                                            <option value="admin">Administrador</option>
+                                            <option value="personnel">Personal</option>
+                                        </select>
+                                        <button type="button" class="btn btn-icon" style="color: green;">
+                                            <i class="bi bi-check-square-fill"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-icon" color: red;">
+                                             <i class="bi bi-x-square-fill" style="color: red;"></i>
+                                        </button>
+                                    </td>
+                                    <td>Confirmado</td>
+                                    <td style="display: flex; gap: 20px;">
+                                        <div>
+                                            <i class="bi bi-eye"></i>
+                                            <i class="bi bi-pencil-square"></i>
+                                        </div>
+                                        <button type="button" class="btn btn-danger" style="margin-top: -5px;"> DESVINCULAR</button></td>
+                                <tr>
+                                    <td>4</td>
+                                    <td><i class="bi bi-person-circle me-1" style="color:rgb(0, 81, 255); "></i> John Doe</td>
+                                    <td>Personal Hotelero</td>
+                                    <td class="d-flex justify-content-start">
+                                        <select class="form-control w-auto">
+                                            <option value="admin">Administrador</option>
+                                            <option value="personnel">Personal</option>
+                                        </select>
+                                        <button type="button" class="btn btn-icon" style="color: green;">
+                                            <i class="bi bi-check-square-fill"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-icon" color: red;">
+                                             <i class="bi bi-x-square-fill" style="color: red;"></i>
+                                        </button>
+                                    </td>
+                                    <td>Pendiente</td>
+                                    <td style="display: flex; gap: 20px;">
+                                        <div>
+                                            <i class="bi bi-eye"></i>
+                                            <i class="bi bi-pencil-square"></i>
+                                        </div>
+                                        <button type="button" class="btn btn-primary" style="margin-top: -5px;"> CONFIRMAR</button>
+                                    </td>
                                     <tr>
-                                        <th>ID</th>
-                                        <th>Nombre usuario</th>
-                                        <th>Cargo</th>
-                                        <th>Permisos</th>
-                                        <th>Status</th>
-                                        <th>Acciones</th>
-                                    </tr>
-                                </thead>
-                                <tfoot>
-                                    <tr>
-                                        <th>ID</th>
-                                        <th>Nombre usuario</th>
-                                        <th>Cargo</th>
-                                        <th>Permisos</th>
-                                        <th>Status</th>
-                                        <th>Acciones</th>
-                                    </tr>
-                                </tfoot>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
+                                        <td>5</td>
                                         <td><i class="bi bi-person-circle me-1" style="color:rgb(0, 81, 255); "></i> John Doe</td>
                                         <td>Product Owner</td>
                                         <td class="d-flex justify-content-start">
@@ -364,7 +308,7 @@
                                             <button type="button" class="btn btn-danger" style="margin-top: -5px;"> DESVINCULAR</button></td>
                                     </tr>
                                     <tr>
-                                        <td>2</td>
+                                        <td>6</td>
                                         <td><i class="bi bi-person-circle me-1" style="color:rgb(0, 81, 255); "></i> John Doe</td>
                                         <td>Personal Hotelero</td>
                                         <td class="d-flex justify-content-start">
@@ -387,7 +331,7 @@
                                             </div>
                                             <button type="button" class="btn btn-success" style="margin-top: -5px;"> VINCULAR</button></td>
                                     <tr>
-                                        <td>3</td>
+                                        <td>7</td>
                                         <td><i class="bi bi-person-circle me-1" style="color:rgb(0, 81, 255); "></i> John Doe</td>
                                         <td>Product Owner</td>
                                         <td class="d-flex justify-content-start">
@@ -410,7 +354,7 @@
                                             </div>
                                             <button type="button" class="btn btn-danger" style="margin-top: -5px;"> DESVINCULAR</button></td>
                                     <tr>
-                                        <td>4</td>
+                                        <td>8</td>
                                         <td><i class="bi bi-person-circle me-1" style="color:rgb(0, 81, 255); "></i> John Doe</td>
                                         <td>Personal Hotelero</td>
                                         <td class="d-flex justify-content-start">
@@ -434,54 +378,7 @@
                                             <button type="button" class="btn btn-primary" style="margin-top: -5px;"> CONFIRMAR</button>
                                         </td>
                                         <tr>
-                                            <td>5</td>
-                                            <td><i class="bi bi-person-circle me-1" style="color:rgb(0, 81, 255); "></i> John Doe</td>
-                                            <td>Product Owner</td>
-                                            <td class="d-flex justify-content-start">
-                                                <select class="form-control w-auto">
-                                                    <option value="admin">Administrador</option>
-                                                    <option value="personnel">Personal</option>
-                                                </select>
-                                                <button type="button" class="btn btn-icon" style="color: green;">
-                                                    <i class="bi bi-check-square-fill"></i>
-                                                </button>
-                                                <button type="button" class="btn btn-icon" color: red;">
-                                                     <i class="bi bi-x-square-fill" style="color: red;"></i>
-                                                </button>
-                                            </td>
-                                            <td>Confirmado</td>
-                                            <td style="display: flex; gap: 20px;">
-                                                <div>
-                                                    <i class="bi bi-eye"></i>
-                                                    <i class="bi bi-pencil-square"></i>
-                                                </div>
-                                                <button type="button" class="btn btn-danger" style="margin-top: -5px;"> DESVINCULAR</button></td>
-                                        </tr>
-                                        <tr>
-                                            <td>6</td>
-                                            <td><i class="bi bi-person-circle me-1" style="color:rgb(0, 81, 255); "></i> John Doe</td>
-                                            <td>Personal Hotelero</td>
-                                            <td class="d-flex justify-content-start">
-                                                <select class="form-control w-auto">
-                                                    <option value="admin">Administrador</option>
-                                                    <option value="personnel">Personal</option>
-                                                </select>
-                                                <button type="button" class="btn btn-icon" style="color: green;">
-                                                    <i class="bi bi-check-square-fill"></i>
-                                                </button>
-                                                <button type="button" class="btn btn-icon" color: red;">
-                                                     <i class="bi bi-x-square-fill" style="color: red;"></i>
-                                                </button>
-                                            </td>
-                                            <td>Desvinculado</td>
-                                            <td style="display: flex; gap: 20px;">
-                                                <div>
-                                                    <i class="bi bi-eye"></i>
-                                                    <i class="bi bi-pencil-square"></i>
-                                                </div>
-                                                <button type="button" class="btn btn-success" style="margin-top: -5px;"> VINCULAR</button></td>
-                                        <tr>
-                                            <td>7</td>
+                                            <td>9</td>
                                             <td><i class="bi bi-person-circle me-1" style="color:rgb(0, 81, 255); "></i> John Doe</td>
                                             <td>Product Owner</td>
                                             <td class="d-flex justify-content-start">
@@ -504,7 +401,7 @@
                                                 </div>
                                                 <button type="button" class="btn btn-danger" style="margin-top: -5px;"> DESVINCULAR</button></td>
                                         <tr>
-                                            <td>8</td>
+                                            <td>10</td>
                                             <td><i class="bi bi-person-circle me-1" style="color:rgb(0, 81, 255); "></i> John Doe</td>
                                             <td>Personal Hotelero</td>
                                             <td class="d-flex justify-content-start">
@@ -526,60 +423,23 @@
                                                     <i class="bi bi-pencil-square"></i>
                                                 </div>
                                                 <button type="button" class="btn btn-primary" style="margin-top: -5px;"> CONFIRMAR</button>
-                                            </td>
-                                            <tr>
-                                                <td>9</td>
-                                                <td><i class="bi bi-person-circle me-1" style="color:rgb(0, 81, 255); "></i> John Doe</td>
-                                                <td>Product Owner</td>
-                                                <td class="d-flex justify-content-start">
-                                                    <select class="form-control w-auto">
-                                                        <option value="admin">Administrador</option>
-                                                        <option value="personnel">Personal</option>
-                                                    </select>
-                                                    <button type="button" class="btn btn-icon" style="color: green;">
-                                                        <i class="bi bi-check-square-fill"></i>
-                                                    </button>
-                                                    <button type="button" class="btn btn-icon" color: red;">
-                                                         <i class="bi bi-x-square-fill" style="color: red;"></i>
-                                                    </button>
-                                                </td>
-                                                <td>Confirmado</td>
-                                                <td style="display: flex; gap: 20px;">
-                                                    <div>
-                                                        <i class="bi bi-eye"></i>
-                                                        <i class="bi bi-pencil-square"></i>
-                                                    </div>
-                                                    <button type="button" class="btn btn-danger" style="margin-top: -5px;"> DESVINCULAR</button></td>
-                                            <tr>
-                                                <td>10</td>
-                                                <td><i class="bi bi-person-circle me-1" style="color:rgb(0, 81, 255); "></i> John Doe</td>
-                                                <td>Personal Hotelero</td>
-                                                <td class="d-flex justify-content-start">
-                                                    <select class="form-control w-auto">
-                                                        <option value="admin">Administrador</option>
-                                                        <option value="personnel">Personal</option>
-                                                    </select>
-                                                    <button type="button" class="btn btn-icon" style="color: green;">
-                                                        <i class="bi bi-check-square-fill"></i>
-                                                    </button>
-                                                    <button type="button" class="btn btn-icon" color: red;">
-                                                         <i class="bi bi-x-square-fill" style="color: red;"></i>
-                                                    </button>
-                                                </td>
-                                                <td>Pendiente</td>
-                                                <td style="display: flex; gap: 20px;">
-                                                    <div>
-                                                        <i class="bi bi-eye"></i>
-                                                        <i class="bi bi-pencil-square"></i>
-                                                    </div>
-                                                    <button type="button" class="btn btn-primary" style="margin-top: -5px;"> CONFIRMAR</button>
-                                </tbody>
-                            </table>
-                        </div>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
-    </main>
+        </div>
+</main>
+
+      </div>
+
+    </div>
+
+  </div>
+
+        </div> <!--  ESPACIO VACIO -->
+            
+        </div> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

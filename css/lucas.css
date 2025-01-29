@@ -58,11 +58,3 @@
     z-index: 1050; /* Este valor es estándar para elementos de navegación */
 }
 
-.navbar-wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    z-index: 1050; 
-}
